@@ -1,0 +1,31 @@
+{
+  "name": "gulp-es6-constant",
+  "version": "0.1.0",
+  "description": "Gulp plugin for dynamic generation of ES6 constant module.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/vlobchuk/es6-constant.git"
+  },
+  "keywords": [
+    "gulp",
+    "es6",
+    "ES2015",
+    "constant",
+    "gulpplugin"
+  ],
+  "author": "Vitaly Lobchuk <vn.lobchuk@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "node_modules/jasmine-node/bin/jasmine-node spec/test.spec.js"
+  },
+  "dependencies": {
+    "gulp-util": "^2.2.14",
+    "js-yaml": "^3.2.7",
+    "lodash": "^2.4.1",
+    "through2": "^0.4.1"
+  },
+  "devDependencies": {
+    "jasmine-node": "^1.14.5"
+  }
+}
